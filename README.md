@@ -16,7 +16,7 @@ We’ll define a simple state object in the constructor of the App Component cla
 ## 04 - Synchronize React UI and State with Controlled Components
 We’ll make the input field a “controlled component” by reacting to each change of the input and capturing it in the component state. Following this model gives us assurance that the UI is always a representation of the current application state.
 
-05 - Create a Stateless Functional Component for an Input Form
+## 05 - Create a Stateless Functional Component for an Input Form
 We’ll refactor our existing code, making the todo form a separate component. We’ll pass values from the App container into the new component via props. We’ll look at the differences between state and props in React and see how state can be passed down to other components as props.
 
 ## 06 - Refactor React Components to be Stateless Functional Components
@@ -31,7 +31,7 @@ In this lesson, we’ll create a utility function to add items to a list, avoidi
 ## 09 - Update React Application State from Form Input
 We’ll add a handler to the form so we can take new input and use it to update the application state. We’ll append new items to the list with the AddTodo function and replace the todos list in state. We’ll also clear out our form so it can accept new todos.
 
-10 - Prevent Empty Form Values with Conditional Submit Handlers
+## 10 - Prevent Empty Form Values with Conditional Submit Handlers
 We’ll take advantage of the controlled nature of the todo input and the first class nature of javascript functions to dynamically assign the form submission handler. An empty todo will trigger a submission handler that is only concerned with handling an error state, and when the input is valid, the form will use the standard submit handler.
 
 ## 11 - Use ES2016 Property Initializer Syntax in ES6 classes
